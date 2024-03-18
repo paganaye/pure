@@ -8,8 +8,8 @@ class AnnotatedFunctionInjection {
         return input * 2
     }
 
-    fun doSignalStuff(input: Signal): Signal {
-        return DynamicSignal(arrayOf(input), ::doStuff)
+    fun _signal_doStuff(input: Signal<Int>): Signal<Int> {
+        return DynamicSignal(arrayOf(input as Signal<Any>), ::doStuff)
     }
 
 }
@@ -21,8 +21,9 @@ fun main() {
     val result = testInstance.doStuff(5)
     println("result: $result")
 
-    val x = VariableSignal(12)
-    val result2 = testInstance.doSignalStuff(x)
+    val x = Variable(12)
+
+    val result2 = testInstance._signal_doStuff(x)
     println("result2: ${result2.value}")
     x.setValue(22)
     println("result2: ${result2.value}")
