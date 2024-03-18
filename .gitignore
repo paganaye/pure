@@ -1,0 +1,5 @@
+/new-plugin/build
+/new-plugin-runtime/build
+/use-plugin/build
+/.gradle
+
