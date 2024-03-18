@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -8,9 +9,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/new-plugin" />
-            <option value="$PROJECT_DIR$/new-plugin-runtime" />
-            <option value="$PROJECT_DIR$/use-plugin" />
+            <option value="$PROJECT_DIR$/pure-plugin" />
+            <option value="$PROJECT_DIR$/pure-plugin-runtime" />
+            <option value="$PROJECT_DIR$/use-pure-plugin" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

@@ -1,4 +1,4 @@
-include ':new-plugin'
-include ':use-plugin'
-include 'new-plugin-runtime'
+include ':pure-plugin'
+include ':use-pure-plugin'
+include 'pure-plugin-runtime'
 

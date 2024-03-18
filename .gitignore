@@ -1,5 +1,7 @@
-/new-plugin/build
-/new-plugin-runtime/build
-/use-plugin/build
+/pure-plugin/build
+/pure-plugin/bin
+/pure-plugin-runtime/build
+/pure-plugin-runtime/bin
+/use-pure-plugin/build
+/use-pure-plugin/bin
 /.gradle
-
