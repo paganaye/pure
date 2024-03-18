@@ -2,10 +2,13 @@ package com.ganaye.pure
 
 class AnnotatedFunctionInjection {
 
+    @Pure
     @PureLog
     fun doStuff(input: Int): Int {
         return input * 2
     }
+
+
 }
 
 fun main() {
