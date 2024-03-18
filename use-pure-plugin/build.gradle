@@ -20,7 +20,8 @@ plugins {
 
 dependencies {
     implementation project(":pure-plugin-runtime")
-
+    // implementation "org.jetbrains.kotlin:kotlin-reflect:$KOTLIN_VERSION"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:$KOTLIN_VERSION"
     testImplementation "org.junit.jupiter:junit-jupiter:$JUNIT_VERSION"
 }
 
